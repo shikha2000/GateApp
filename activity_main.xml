@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/excel_logo"/>
+
+    <RelativeLayout
+        android:id="@+id/RelativeSpinner"
+        android:layout_below="@+id/imgLogo"
+        android:background="@drawable/bg_edittext_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+    <Spinner
+        android:id="@+id/SpinnerName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/Name"
+        android:gravity="center"
+        android:spinnerMode="dialog"
+        />
+    </RelativeLayout>
+    <Button
+        android:id="@+id/BtnEnter"
+        android:layout_below="@+id/RelativeSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_medium"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:text="Enter"
+        android:textColor="@color/colorPrimary"
+        android:background="@color/colorAccent"/>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ExcelSchool</string>
+    <string-array name="Name">
+        <item>Select Your Centre</item>
+        <item>Excel Playschool and Day Care Sec 122 Noida U.P</item>
+        <item>Excel Playschool and Day Care Sec 116 Noida U.P</item>
+        <item>Excel Playschool and Day Care Sec 104 </item>
+        <item>Excel Playschool and Day Care Dilshad Garden</item>
+    </string-array>
+<string-array name="Field">
+    <item>Select Reason For Visit</item>
+    <item>Admission</item>
+    <item>Interview</item>
+    <item>Vendor</item>
+    <item>Other</item>
+</string-array>
+</resources>
